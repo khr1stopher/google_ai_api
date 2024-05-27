@@ -1,0 +1,24 @@
+INSTRUCTIONS
+- Description of the project
+- in the configuration_ref put where the configurations file comes
+- Extract and list all configuration like env variables, variables from a config
+and return it as a json
+
+json example:
+{
+    "description": "",
+    "language": "",
+    "framework": "",
+    "configuration_ref": "",
+    "configurations": [
+        { key: "",  value: "" }
+    ]
+}
+
+input:
+project structure
+/home/user/path_project/app.py
+import os; print(os.environ['API_KEY'])
+
+output:
+{"description": "This project appears to be a Python returning an API_KEY env", "framework": "No tiene", "language": "Python ", "configurations": [{"key": "API_KEY", "value": ""}]}

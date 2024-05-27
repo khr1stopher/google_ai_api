@@ -1,2 +1,4 @@
 # google_ai_api
 test of google_gemini_api
+
+export API_KEY=AIzaSyBG7Bzv33yqXlY4kSkMScsyVlWnuSphXAE
